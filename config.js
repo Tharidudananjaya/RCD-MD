@@ -12,17 +12,17 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "";
 global.location = "Sri lanka .";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "94789958225@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "94729280674@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "srilank/ampara";
 global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VafPRIHIHphCGVuZEb0T";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VafPRIHIHphCGVuZEb0T";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "94789958225,94757660788,94770730717,94785274495";
-global.owner = process.env.OWNER_NUMBER || "94789958225,94753574803";
+global.sudo = process.env.SUDO || "94729280674";
+global.owner = process.env.OWNER_NUMBER || "94729280674";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -51,12 +51,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐑𝐂𝐃-𝐌𝐃-🏛️",
-  author: process.env.PACK_AUTHER || "𝐑𝐂𝐃",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐌𝐑-𝐃𝐀𝐒𝐀-🏛️",
+  author: process.env.PACK_AUTHER || "MR DASA",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐑𝐂𝐃 𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "𝐃𝐄𝐗𝐓𝐄𝐑,𝐕𝐈𝐏𝐄𝐑",
-  errorChat: process.env.ERROR_CHAT || "94789958225",
+  botname: process.env.BOT_NAME || "MR DASA",
+  ownername: process.env.OWNER_NAME || "MR DASA",
+  errorChat: process.env.ERROR_CHAT || "94729280674",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
